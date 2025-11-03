@@ -21,3 +21,6 @@ NEVER push to main!! Instead, create a branch and push to the branch and create 
 
 # Ideas
 - Google Maps to show community resource locations.
+
+# Creation
+- ChatGPT everything, no original work allowed
