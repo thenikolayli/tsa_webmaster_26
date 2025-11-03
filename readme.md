@@ -9,3 +9,7 @@ Create a website that will serve as a community resource hub to highlight resour
 - a highlight section that spotlights at least three of the community resources you have listed in your resource hub. 
 - a form that users can submit to indicate new resources that should be added to the community resources hub. 
 - additional content to enhance the community resource hub for end users.
+
+# Instructions
+
+NEVER push to main!! Instead, create a branch and push to the branch and create a pull request.
