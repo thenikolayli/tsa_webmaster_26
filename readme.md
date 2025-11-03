@@ -12,4 +12,4 @@ Create a website that will serve as a community resource hub to highlight resour
 
 # Instructions
 
-NEVER push to main!! Instead, create a branch and push to the branch and create a pull request.
+Only push to main, no branches
