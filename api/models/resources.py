@@ -4,14 +4,13 @@ from datetime import datetime
 
 """
 class representing what every resource has
-table=True because it also represents services, which don't have any special fields (broad)
 """
-class ResourceBase(SQLModel, table=True):
+class ResourceBase(SQLModel, table=False):
     id: Optional[int] = Field(default=None, primary_key=True)
     title: str
     description: str
     photo_url: Optional[str]
-    website_url: str
+    website_url: Optional[str]
     tags: list[str] = Field(default_factory=list)
 
 class Place(ResourceBase, table=True):
@@ -20,3 +19,6 @@ class Place(ResourceBase, table=True):
 class Event(ResourceBase, table=True):
     start: datetime
     end: datetime
+
+class Service(ResourceBase, table=True):
+    address: Optional[str]
