@@ -20,4 +20,4 @@ class Login(BaseModel):
 class Session(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     session_id: uuid.UUID = Field(default=None)
-    user: User = Relationship(back_populates="active_sessions")
+    user: "User" = Relationship(back_populates="active_sessions")

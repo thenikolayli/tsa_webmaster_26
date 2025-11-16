@@ -13,7 +13,7 @@ class User(SQLModel, table=True):
     password: str
     roles: list[str] = Field(default_factory=list)
     created: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
-    active_sessions: list[Session] = Relationship(back_populates="user")
+    active_sessions: list["Session"] = Relationship(back_populates="user")
 
     # hashes the password
     def hash_password(self):
