@@ -8,6 +8,7 @@ fastapi = "*"
 sqlmodel = "*"
 uvicorn = "*"
 python-dotenv = "*"
+passlib = "*"
 
 [dev-packages]
 

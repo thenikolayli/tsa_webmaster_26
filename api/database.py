@@ -1,6 +1,6 @@
 from sqlmodel import create_engine, SQLModel, Session
 from contextlib import contextmanager
-import api.config as config
+import config
 
 engine = create_engine(config.DB_CONNECTION_STRING)
 

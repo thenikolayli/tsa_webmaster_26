@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f9ab476f4277910e350576490d4f2665da0c5aaf8ad3e53a4e1ebe6dde603fd3"
+            "sha256": "faf38ae67357ad6e44998358099390f5e9c348e6309c9a4359c63f57981aa315"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -47,14 +47,6 @@
             ],
             "markers": "python_version >= '3.10'",
             "version": "==8.3.0"
-        },
-        "colorama": {
-            "hashes": [
-                "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
-                "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6'",
-            "version": "==0.4.6"
         },
         "fastapi": {
             "hashes": [
@@ -152,6 +144,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==3.11"
+        },
+        "passlib": {
+            "hashes": [
+                "sha256:aa6bca462b8d8bda89c70b382f0c298a20b5560af6cbfa2dce410c0a2fb669f1",
+                "sha256:defd50f72b65c5402ab2c573830a6978e5f202ad0d984793c8dde2c4152ebe04"
+            ],
+            "index": "pypi",
+            "version": "==1.7.4"
         },
         "pydantic": {
             "hashes": [
